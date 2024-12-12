@@ -65,7 +65,7 @@ sudo docker run -dit --name centos7 pycontribs/centos:7 sleep 6000000
 Рис.7_1
 ![Рис.7_1](img/7_1.png)
 
-Рис.7_1
+Рис.7_2
 ![Рис.7_2](img/7_2.png)
 
 8. Запустите playbook на окружении `prod.yml`. При запуске `ansible` должен запросить у вас пароль. Убедитесь в работоспособности.
