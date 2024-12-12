@@ -31,7 +31,9 @@
 Решение:
 
 Создаем докер контейнеры через команды:
+
 sudo docker run -dit --name ubuntu pycontribs/ubuntu:latest sleep 6000000
+
 sudo docker run -dit --name centos7 pycontribs/centos:7 sleep 6000000
 
 Рис.3_0
@@ -60,11 +62,11 @@ sudo docker run -dit --name centos7 pycontribs/centos:7 sleep 6000000
 
 Решение:
 
-Рис.7_0
-![Рис.7_0](img/7_0.png)
-
 Рис.7_1
 ![Рис.7_1](img/7_1.png)
+
+Рис.7_1
+![Рис.7_2](img/7_2.png)
 
 8. Запустите playbook на окружении `prod.yml`. При запуске `ansible` должен запросить у вас пароль. Убедитесь в работоспособности.
 
